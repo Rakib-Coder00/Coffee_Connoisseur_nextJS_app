@@ -22,6 +22,9 @@ export default function Home() {
       <main className={styles.main}>
 
         <Banner bannerBtn={bannerBtn} btnText='View store' />
+        <div className={styles.heroImage}>
+          <Image src='/static/hero-image.png' width={700} height={400} alt=""></Image>
+        </div>
       </main>
     </>
   )
